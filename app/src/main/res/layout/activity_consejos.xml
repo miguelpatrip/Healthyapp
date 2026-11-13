@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recomendaciones"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvConsejoAgua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💧 Hidratación: Recuerda beber al menos 8 vasos de agua al día para mantener tu cuerpo funcionando al 100%."
+        android:textSize="16sp"
+        android:background="#E3F2FD"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvConsejoFisica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏃 Actividad: Realiza pausas activas o camina un poco. La meta son 30 minutos de movimiento diario."
+        android:textSize="16sp"
+        android:background="#FBE9E7"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvConsejoSueno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💤 Descanso: Intenta establecer una rutina nocturna para alcanzar tus 8 horas de sueño. Evita pantallas antes de dormir."
+        android:textSize="16sp"
+        android:background="#EDE7F6"
+        android:padding="16dp"
+        android:visibility="gone" />
+
+</LinearLayout>

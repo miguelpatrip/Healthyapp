@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Healthy Track"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Campo Nombre -->
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del usuario"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo Agua -->
+    <EditText
+        android:id="@+id/etAgua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vasos de agua consumidos"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo Actividad Física -->
+    <EditText
+        android:id="@+id/etFisica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Minutos de actividad física"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo Sueño -->
+    <EditText
+        android:id="@+id/etSueno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Horas de sueño"
+        android:inputType="number"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Botón de Evaluación -->
+    <Button
+        android:id="@+id/btnEvaluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Evaluar mi día"
+        android:textSize="16sp" />
+
+</LinearLayout>
